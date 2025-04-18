@@ -1,0 +1,7 @@
+wwwroot\assets\css\style.css
+wwwroot\assets\js\script.js
+wwwroot\index.html
+wwwroot\index2.html
+wwwroot\JavaScrip.js
+wwwroot\Login.html
+wwwroot\styles.css

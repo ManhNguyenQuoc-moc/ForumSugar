@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Management</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Blog Management</h1>
+
+    <!-- All Blogs Section -->
+    <div>
+        <h3>All Blogs</h3>
+        <div id="blog-container"></div>
+        <div id="loading" style="display:none;">Loading...</div>
+        <button id="loadMoreBtn" onclick="loadPosts()">Load More</button>
+    </div>
+
+    <!-- Create a New Blog Section -->
+    <div>
+        <h3>Create a New Blog</h3>
+        <form id="createPostForm">
+            <label for="postTitle">Tiêu đề bài viết:</label>
+            <input type="text" id="postTitle" name="postTitle" required><br><br>
+
+            <label for="postTopic">Chủ đề (các chủ đề cách nhau bằng dấu phẩy):</label>
+            <input type="text" id="postTopic" name="postTopic"><br><br>
+
+            <label for="postContent">Nội dung bài viết:</label>
+            <textarea id="postContent" name="postContent" required></textarea><br><br>
+
+            <label for="postImage">Chọn hình ảnh:</label>
+            <input type="file" id="postImage" name="postImage" accept="image/*"><br><br>
+
+            <div>
+                <img id="previewImage" style="max-width: 200px; display: none;" alt="Hình ảnh chọn"></img>
+            </div>
+
+            <button type="button" onclick="createPost()">Tạo bài viết</button>
+            <div id="createMessage"></div>
+        </form>
+    </div>
+
+    <!-- Blog Details Section -->
+    <div>
+        <h3>Blog Details</h3>
+        <div id="blog-details"></div>
+    </div>
+</body>
+</html>

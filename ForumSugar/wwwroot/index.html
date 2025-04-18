@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Dường Muối</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="loginAlert" style="
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 9999;
+    font-weight: bold;
+"></div>
+    <!-- FORM ĐĂNG KÝ -->
+    <div class="modal fade custom-reg-modal" id="RegModal" tabindex="-1" aria-labelledby="RegModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-4">
+                <div class="modal-header border-0 p-0 mb-3 position-relative">
+                    <h5 class="modal-title w-100 text-center" id="RegModalLabel">Đăng ký tài khoản</h5>
+                    <button type="button" class="close position-absolute end-0 top-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 1.5rem;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <form id="registerForm">
+                        <div class="form-group mb-2">
+                            <input id="regEmail" type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-row mb-2">
+                            <div class="form-group col">
+                                <input id="regho" type="text" class="form-control" placeholder="Họ" required>
+                            </div>
+                            <div class="form-group col">
+                                <input id="reten" type="text" class="form-control" placeholder="Tên" required>
+                            </div>
+                        </div>
+                        <div class="form-group mb-2">
+                            <input id="regDob" type="date" class="form-control" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <input id="regUsername" type="text" class="form-control" placeholder="@Username" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <input id="regPhone" type="text" class="form-control" placeholder="Số điện thoại" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <input id="regPassword" type="password" class="form-control" placeholder="Mật khẩu" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <input id="regConfirmPassword" type="password" class="form-control" placeholder="Xác nhận mật khẩu" required>
+                        </div>
+                        <div class="form-group form-check mb-2">
+                            <input type="checkbox" class="form-check-input" id="agree" required>
+                            <label class="form-check-label" for="agree">Tôi đồng ý với <a href="#">điều khoản và quy định</a></label>
+                        </div>
+                        <div id="message" class="text-center text-danger mb-2"></div>
+                        <button type="submit" class="btn btn-primary btn-block w-100">Đăng ký</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <span class="no-account-text">Đã có tài khoản?</span>
+                        <a href="#" class="text-primary switch-to-login">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM ĐĂNG NHẬP -->
+    <div class="modal fade custom-login-modal" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-4">
+                <div class="modal-header border-0 p-0 mb-3 position-relative">
+                    <h5 class="modal-title w-100 text-center" id="loginModalLabel">Đăng nhập tài khoản</h5>
+                    <button type="button" class="close position-absolute end-0 top-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 1.5rem;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <form id="LoginForm">
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" id="loginUsername" placeholder="Email hoặc User name" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Mật khẩu" required>
+                        </div>
+                        <div class="d-flex justify-content-end mb-3">
+                            <a href="#" class="text-danger small">Quên mật khẩu?</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block w-100">Đăng nhập</button>
+                    </form>
+                    <div class="text-center mt-3 custom-login-modal">
+                        <span class="no-account-text">Chưa có tài khoản?</span>
+                        <a href="#" class="text-primary switch-to-register">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Chuyển từ đăng nhập -> đăng ký
+            $('.switch-to-register').click(function (e) {
+                e.preventDefault();
+                $('#loginModal').modal('hide');  // Ẩn modal đăng nhập
+                $('#loginModal').on('hidden.bs.modal', function () {
+                    $('#RegModal').modal('show'); // Hiển thị modal đăng ký
+                    $(this).off('hidden.bs.modal'); // Xóa sự kiện để tránh lặp lại
+                });
+            });
+
+            // Chuyển từ đăng ký -> đăng nhập
+            $('.switch-to-login').click(function (e) {
+                e.preventDefault();
+                $('#RegModal').modal('hide');  // Ẩn modal đăng ký
+                $('#RegModal').on('hidden.bs.modal', function () {
+                    $('#loginModal').modal('show'); // Hiển thị modal đăng nhập
+                    $(this).off('hidden.bs.modal'); // Xóa sự kiện để tránh lặp lại
+                });
+            });
+        });
+    </script>
+    <!-- ==================== TOP BAR  ==================== -->
+    <header class="top-bar">
+        <div class="container-fluid top-bar-inner d-flex align-items-center justify-content-between">
+            <!-- Logo -->
+            <div class="logo-area">
+                <a href="#">
+                    <img src="./assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt" alt="TDTU Logo" class="main-logo">
+                </a>
+            </div>
+            <!-- Search Bar  -->
+            <div class="search-bar ">
+
+                <i class="fas fa-search search-icon"></i>
+                <input type="search" placeholder="Search" class="search-input">
+            </div>
+
+            <!-- User Actions -->
+            <div class="user-actions d-flex align-items-center">
+                <!-- Nút có chữ -->
+                <button class="action-btn create-btn d-none d-md-inline-flex align-items-center">
+                    <i class="fas fa-plus"></i><span>Create</span>
+                </button>
+                <button class="action-btn ai-chat-btn d-none d-md-inline-flex align-items-center">
+                    <i class="fas fa-comment-dots"></i><span>AI Chat</span>
+                </button>
+                <!-- Nút icon -->
+                <button class="action-btn icon-btn notification-btn">
+                    <i class="fas fa-bell"></i>
+                </button>
+                <!-- Nút đăng nhập ban đầu -->
+                <button id="loginBtn" class="action-btn icon-btn profile-btn btn btn-primary" type="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fas fa-user"></i>
+                </button>
+                <!-- Dropdown avatar sau khi đăng nhập -->
+                <div id="user-info" class="dropdown d-none">
+                    <button class="btn dropdown-toggle p-0 border-0 bg-transparent" type="button" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img id="user-avatar" src="" class="rounded-circle" width="40" height="40" />
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right p-3 text-center" aria-labelledby="userDropdown" style="min-width: 200px;">
+                        <img id="popup-avatar" src="" class="rounded-circle mb-2" width="60" height="60" />
+                        <div id="popup-username" class="font-weight-bold"></div>
+                        <hr>
+                        <button id="logoutBtn" class="btn btn-sm btn-outline-danger mt-2">Đăng xuất</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ==================== MAIN CONTENT AREA  ==================== -->
+    <main class="main-container container-fluid">
+        <div class="row">
+            <!-- ==================== LEFT SIDEBAR  ==================== -->
+            <aside class="col-md-4 col-lg-3 d-none d-md-block left-sidebar">
+                <div class="sidebar-inner">
+                    <!-- Main Navigation -->
+                    <nav class="main-nav custom-nav">
+                        <ul>
+                            <li class="nav-item active">
+                                <a href="http://127.0.0.1:5500/index.html?#" class="nav-link">
+                                    <i class="fas fa-home fa-fw"></i><span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-archive fa-fw"></i><span>Archive</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-file-alt fa-fw"></i><span>Document</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-store fa-fw"></i><span>Marketplace</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Topics Navigation -->
+                    <nav class="topics-nav custom-nav text-right">
+                        <h3 class="nav-title"># Topic</h3>
+                        <ul>
+                            <li class="nav-item"><a href="#" class="nav-link"># Share đáp án TDTU</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"># IT-Zone</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"># CNTT</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"># Electronics</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"># Art</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"># Tài liệu học tập</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"># Kỹ năng sống</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"># Step - up</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Utility Navigation -->
+                    <nav class="utility-nav custom-nav">
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-info-circle fa-fw"></i><span>About us</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-file-contract fa-fw"></i><span>Terms & Conditions</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-comment-alt fa-fw"></i><span>Feedback</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <!-- ==================== CENTER FEED  ==================== -->
+            <section class="col-12 col-md-8 col-lg-6 feed-content scrollable-div">
+
+                <!-- content -->
+
+
+
+            </section>
+
+            <!-- ==================== RIGHT SIDEBAR  ==================== -->
+
+            <aside class="col-lg-3 d-none d-lg-block right-sidebar">
+                <div class="sidebar-inner">
+                    <!-- Ranking Widget  -->
+                    <div class="ranking-widget">
+                        <header class="widget-header">
+
+                            <h3 class="widget-title"># Ranking</h3>
+                            <div class="ranking-filter">
+                                <span class="filter-label">Sinh viên năng nổ nhất</span>
+
+                            </div>
+                        </header>
+                        <ul class="ranking-list">
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+        </div> <!-- Kết thúc .row -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

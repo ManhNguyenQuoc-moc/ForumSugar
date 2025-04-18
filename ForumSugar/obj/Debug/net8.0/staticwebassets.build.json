@@ -1,0 +1,743 @@
+{
+  "Version": 1,
+  "Hash": "6qJ3TYNkJLtxVba2zVzugP1PAPAcPfqDZt6Hmnl2jnA=",
+  "Source": "ForumSugar",
+  "BasePath": "_content/ForumSugar",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ForumSugar\\wwwroot",
+      "Source": "ForumSugar",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "assets/css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0o8br1ji6v",
+      "Integrity": "oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "assets/js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rhkulgq0et",
+      "Integrity": "P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\script.js"
+    },
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "btyh14f7zv",
+      "Integrity": "gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "index2#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s4xsmwflgy",
+      "Integrity": "vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index2.html"
+    },
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\JavaScrip.js",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "JavaScrip#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2iw9au82lb",
+      "Integrity": "yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JavaScrip.js"
+    },
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "Login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7rtakmdldn",
+      "Integrity": "I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Login.html"
+    },
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "scwm2tlfsg",
+      "Integrity": "tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/css/style.0o8br1ji6v.css",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0o8br1ji6v"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/style.css",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/script.js",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:18:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/script.rhkulgq0et.js",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:18:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rhkulgq0et"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M="
+        }
+      ]
+    },
+    {
+      "Route": "index.btyh14f7zv.html",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 03:25:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btyh14f7zv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 03:25:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ="
+        }
+      ]
+    },
+    {
+      "Route": "index2.html",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 02:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo="
+        }
+      ]
+    },
+    {
+      "Route": "index2.s4xsmwflgy.html",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 02:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s4xsmwflgy"
+        },
+        {
+          "Name": "label",
+          "Value": "index2.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo="
+        }
+      ]
+    },
+    {
+      "Route": "JavaScrip.2iw9au82lb.js",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\JavaScrip.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10631"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:18:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2iw9au82lb"
+        },
+        {
+          "Name": "label",
+          "Value": "JavaScrip.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo="
+        }
+      ]
+    },
+    {
+      "Route": "JavaScrip.js",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\JavaScrip.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10631"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:18:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo="
+        }
+      ]
+    },
+    {
+      "Route": "Login.7rtakmdldn.html",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 07:04:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7rtakmdldn"
+        },
+        {
+          "Name": "label",
+          "Value": "Login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE="
+        }
+      ]
+    },
+    {
+      "Route": "Login.html",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 07:04:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:09:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno="
+        }
+      ]
+    },
+    {
+      "Route": "styles.scwm2tlfsg.css",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:09:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scwm2tlfsg"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno="
+        }
+      ]
+    }
+  ]
+}

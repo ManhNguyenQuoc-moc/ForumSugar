@@ -1,0 +1,871 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ForumSugar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\wwwroot\\assets\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\wwwroot\\assets\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\controllers\\learningpathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\controllers\\learningpathscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\wwwroot\\index2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\wwwroot\\index2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\dtos\\createpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\dtos\\createpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\repositories\\postreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\repositories\\postreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\interfaces\\itopicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\interfaces\\itopicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\wrappers\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\wrappers\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\topicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\topicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\dtos\\createcommentreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\dtos\\createcommentreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\models\\entities\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\models\\entities\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\models\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\models\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\dtos\\topiccreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\dtos\\topiccreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\forumsugar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\forumsugar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\models\\entities\\savedpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\models\\entities\\savedpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\migrations\\20250416055233_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\migrations\\20250416055233_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\migrations\\20250416061951_updateusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\migrations\\20250416061951_updateusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|d:\\forumsugar\\forumsugar\\migrations\\20250416131832_updatedatacheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BA7D8D-500A-438B-B1A9-EA4500297B1E}|ForumSugar\\ForumSugar.csproj|solutionrelative:forumsugar\\migrations\\20250416131832_updatedatacheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\PostService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\PostService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\PostService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwCcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:16:21.629Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreatePostDto.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\DTOs\\CreatePostDto.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\DTOs\\CreatePostDto.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\DTOs\\CreatePostDto.cs",
+              "RelativeToolTip": "ForumSugar\\DTOs\\CreatePostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:16:58.977Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ForumSugar\\wwwroot\\index.html",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
+              "RelativeToolTip": "ForumSugar\\wwwroot\\index.html",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAJMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-17T02:49:49.968Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "ForumSugar\\wwwroot\\assets\\css\\style.css",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
+              "RelativeToolTip": "ForumSugar\\wwwroot\\assets\\css\\style.css",
+              "ViewState": "AgIAAPACAAAAAAAAAAAAAPoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T03:44:06.322Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\AuthService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\AuthService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\AuthService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCQAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:55:13.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlogsController.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Controllers\\BlogsController.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Controllers\\BlogsController.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Controllers\\BlogsController.cs",
+              "RelativeToolTip": "ForumSugar\\Controllers\\BlogsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA5wDQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:16:08.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LearningPathsController.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Controllers\\LearningPathsController.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Controllers\\LearningPathsController.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Controllers\\LearningPathsController.cs",
+              "RelativeToolTip": "ForumSugar\\Controllers\\LearningPathsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:33:54.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "script.js",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
+              "RelativeDocumentMoniker": "ForumSugar\\wwwroot\\assets\\js\\script.js",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
+              "RelativeToolTip": "ForumSugar\\wwwroot\\assets\\js\\script.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-17T03:03:51.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:26:29.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ForumSugar\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA+wBUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:55:06.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.html",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
+              "RelativeDocumentMoniker": "ForumSugar\\wwwroot\\Login.html",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
+              "RelativeToolTip": "ForumSugar\\wwwroot\\Login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-16T14:23:20.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\IPostService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\Interfaces\\IPostService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\IPostService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\Interfaces\\IPostService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAnwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:23:46.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ForumSugar\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:33:51.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Models\\Entities\\User.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "ForumSugar\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:13:15.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
+              "RelativeDocumentMoniker": "ForumSugar\\wwwroot\\styles.css",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
+              "RelativeToolTip": "ForumSugar\\wwwroot\\styles.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-16T11:01:50.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ForumSugar\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:42:54.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Helpers\\JwtHelper.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "ForumSugar\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:08:18.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\DTOs\\PostDto.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\DTOs\\PostDto.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\DTOs\\PostDto.cs",
+              "RelativeToolTip": "ForumSugar\\DTOs\\PostDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:51:57.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index2.html",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
+              "RelativeDocumentMoniker": "ForumSugar\\wwwroot\\index2.html",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
+              "RelativeToolTip": "ForumSugar\\wwwroot\\index2.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-16T11:10:33.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "ForumSugar\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:55:43.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Repositories\\PostRepository.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "ForumSugar\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA6wCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:43:58.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250416131832_updatedatacheck.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Migrations\\20250416131832_updatedatacheck.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Migrations\\20250416131832_updatedatacheck.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Migrations\\20250416131832_updatedatacheck.cs",
+              "RelativeToolTip": "ForumSugar\\Migrations\\20250416131832_updatedatacheck.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T13:18:33.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Repositories\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Repositories\\IPostRepository.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Repositories\\IPostRepository.cs",
+              "RelativeToolTip": "ForumSugar\\Repositories\\IPostRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwAoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:53:45.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ForumSugar\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwHIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T13:01:14.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PostReportRepository.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Repositories\\PostReportRepository.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Repositories\\PostReportRepository.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Repositories\\PostReportRepository.cs",
+              "RelativeToolTip": "ForumSugar\\Repositories\\PostReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:55:31.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Models\\Entities\\Post.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Post.cs",
+              "RelativeToolTip": "ForumSugar\\Models\\Entities\\Post.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:21:14.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITopicService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\ITopicService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\Interfaces\\ITopicService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\ITopicService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\Interfaces\\ITopicService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:26:13.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Readme.md",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Readme.md",
+              "RelativeDocumentMoniker": "ForumSugar\\Readme.md",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Readme.md",
+              "RelativeToolTip": "ForumSugar\\Readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-16T05:52:12.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Wrappers\\PagedResult.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Wrappers\\PagedResult.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Wrappers\\PagedResult.cs",
+              "RelativeToolTip": "ForumSugar\\Wrappers\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T10:36:13.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TopicService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\TopicService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\TopicService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\TopicService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\TopicService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwC8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:26:51.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TopicController.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Controllers\\TopicController.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Controllers\\TopicController.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Controllers\\TopicController.cs",
+              "RelativeToolTip": "ForumSugar\\Controllers\\TopicController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwB0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:40:07.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateCommentReportDto.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\DTOs\\CreateCommentReportDto.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\DTOs\\CreateCommentReportDto.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\DTOs\\CreateCommentReportDto.cs",
+              "RelativeToolTip": "ForumSugar\\DTOs\\CreateCommentReportDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:23:09.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserListDto.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\DTOs\\UserListDto.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\DTOs\\UserListDto.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\DTOs\\UserListDto.cs",
+              "RelativeToolTip": "ForumSugar\\DTOs\\UserListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:43:24.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Models\\Entities\\Comment.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Comment.cs",
+              "RelativeToolTip": "ForumSugar\\Models\\Entities\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:43:20.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Achievement.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Models\\Entities\\Achievement.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Achievement.cs",
+              "RelativeToolTip": "ForumSugar\\Models\\Entities\\Achievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:43:18.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TopicCreateDto.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\DTOs\\TopicCreateDto.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\DTOs\\TopicCreateDto.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\DTOs\\TopicCreateDto.cs",
+              "RelativeToolTip": "ForumSugar\\DTOs\\TopicCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:32:33.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "ForumSugar\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:20:49.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Topic.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Models\\Entities\\Topic.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\Topic.cs",
+              "RelativeToolTip": "ForumSugar\\Models\\Entities\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:20:56.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\ReportService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\ReportService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:23:55.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "ForumSugar\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:56:05.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\UserService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\UserService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:50:10.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Program.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Program.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Program.cs",
+              "RelativeToolTip": "ForumSugar\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:05:07.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "ForumSugar\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:55:51.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ForumSugar.csproj",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\ForumSugar.csproj",
+              "RelativeDocumentMoniker": "ForumSugar\\ForumSugar.csproj",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\ForumSugar.csproj",
+              "RelativeToolTip": "ForumSugar\\ForumSugar.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-16T05:47:51.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\appsettings.json",
+              "RelativeDocumentMoniker": "ForumSugar\\appsettings.json",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\appsettings.json",
+              "RelativeToolTip": "ForumSugar\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T05:47:47.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\Interfaces\\ICommentService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\Interfaces\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:07:38.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Services\\NotificationService.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Services\\NotificationService.cs",
+              "RelativeToolTip": "ForumSugar\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:02:03.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SavedPost.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\SavedPost.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Models\\Entities\\SavedPost.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Models\\Entities\\SavedPost.cs",
+              "RelativeToolTip": "ForumSugar\\Models\\Entities\\SavedPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:44:05.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250416061951_Updateusertable.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Migrations\\20250416061951_Updateusertable.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Migrations\\20250416061951_Updateusertable.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Migrations\\20250416061951_Updateusertable.cs",
+              "RelativeToolTip": "ForumSugar\\Migrations\\20250416061951_Updateusertable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:19:52.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\DTOs\\RegisterDto.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "ForumSugar\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:16:04.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250416055233_InitialCreate.cs",
+              "DocumentMoniker": "D:\\ForumSugar\\ForumSugar\\Migrations\\20250416055233_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ForumSugar\\Migrations\\20250416055233_InitialCreate.cs",
+              "ToolTip": "D:\\ForumSugar\\ForumSugar\\Migrations\\20250416055233_InitialCreate.cs",
+              "RelativeToolTip": "ForumSugar\\Migrations\\20250416055233_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:52:34.42Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

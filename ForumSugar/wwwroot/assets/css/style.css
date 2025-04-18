@@ -1,0 +1,762 @@
+/* ==================== GENERAL RESET & BASE STYLES ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    line-height: 1.4;
+    font-size: 16px; /* Hoặc 1rem */
+    padding-top: 60px; /* QUAN TRỌNG: Khoảng trống cho top bar cố định */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none; /* Bỏ gạch chân hover mặc định nếu không muốn */
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 0; /* Reset padding */
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ==================== LAYOUT STYLES ==================== */
+
+
+.main-container {
+    /* container-fluid và row/col của BS4 xử lý layout chính */
+    /* Thêm padding nếu cần khoảng trống tổng thể */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.left-sidebar, .right-sidebar {
+    /* position: sticky hoạt động khi có chiều cao và top */
+    position: sticky;
+    top: 75px; /* Cao hơn top-bar một chút */
+    height: calc(100vh - 85px); /* Chiều cao để tính toán scroll */
+    overflow-y: auto; /* Cho phép cuộn nội dung sidebar */
+}
+
+/* Thêm padding cho cột sidebar để nội dung không sát viền */
+.left-sidebar {
+    padding-right: 15px; /* Khoảng cách với cột giữa */
+}
+.right-sidebar {
+    padding-left: 15px; /* Khoảng cách với cột giữa */
+}
+
+/* Tùy chỉnh thanh cuộn (tùy chọn) */
+.left-sidebar::-webkit-scrollbar,
+.right-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+.left-sidebar::-webkit-scrollbar-thumb,
+.right-sidebar::-webkit-scrollbar-thumb {
+    background-color: #ced4da;
+    border-radius: 3px;
+}
+.left-sidebar::-webkit-scrollbar-track,
+.right-sidebar::-webkit-scrollbar-track {
+    background-color: #f8f9fa;
+}
+
+
+/* ==================== TOP BAR STYLES ==================== */
+.top-bar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddfe2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1030; /* Cao hơn z-index mặc định của BS4 */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.top-bar-inner {
+    height: 100%;
+    padding-left: 15px; /* Hoặc giá trị padding mong muốn */
+    padding-right: 15px;
+}
+
+.logo-area .main-logo {
+    height: 35px; /* Kích thước logo */
+    vertical-align: middle;
+}
+
+.search-bar {
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    padding: 6px 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 450px; /* Giới hạn chiều rộng ô tìm kiếm */
+}
+
+.search-icon {
+    color: #606770;
+    margin-right: 8px;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 0.95rem;
+}
+.search-input::placeholder {
+    color: #606770;
+}
+
+.user-actions .action-btn {
+    display: inline-flex; /* Để align-items-center hoạt động */
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: 8px; /* Khoảng cách giữa các nút */
+    transition: background-color 0.2s ease;
+    white-space: nowrap; /* Ngăn chữ xuống dòng */
+}
+.user-actions .action-btn i {
+    margin-right: 6px; /* Khoảng cách icon và chữ */
+}
+
+/* Nút Create */
+.user-actions .create-btn {
+    background-color: #e7f3ff;
+    color: #1877f2;
+}
+.user-actions .create-btn:hover {
+    background-color: #ddebf8;
+}
+
+/* Nút AI Chat */
+.user-actions .ai-chat-btn {
+    background-color: #E0F2FE;
+    color: #0EA5E9;
+}
+.user-actions .ai-chat-btn:hover {
+    background-color: #BAE6FD;
+}
+
+/* Nút chỉ có Icon */
+.user-actions .icon-btn {
+    background-color: #e4e6eb;
+    color: #050505;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0; /* Bỏ padding */
+    justify-content: center; /* Căn giữa icon */
+    font-size: 1.1rem;
+}
+.user-actions .icon-btn i {
+    margin-right: 0; /* Bỏ margin cho icon */
+}
+.user-actions .icon-btn:hover {
+    background-color: #dcdfe4;
+}
+
+
+/* ==================== SIDEBAR STYLES ==================== */
+.sidebar-inner {
+    /* Có thể thêm padding nếu cần */
+}
+
+.custom-nav ul {
+    padding-left: 0; /* Bỏ padding mặc định của ul */
+}
+
+.custom-nav .nav-title {
+    font-size: 0.9rem;
+    color: #606770;
+    padding: 15px 15px 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 15px; /* Khoảng cách giữa các nhóm nav */
+    border-top: 1px solid #dddfe2; /* Đường kẻ phân cách */
+    padding-top: 20px;
+}
+/* Bỏ border-top cho nhóm nav đầu tiên */
+.main-nav + .topics-nav .nav-title,
+.main-nav + .utility-nav .nav-title {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 15px;
+}
+.topics-nav + .utility-nav .nav-title {
+     margin-top: 15px;
+     border-top: 1px solid #dddfe2;
+     padding-top: 20px;
+}
+
+
+.custom-nav .nav-item {
+    margin-bottom: 4px;
+}
+
+.custom-nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #333;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.custom-nav .nav-link:hover {
+    background-color: #e4e6eb;
+    color: #1c1e21;
+}
+
+.custom-nav .nav-link i {
+    width: 25px; /* Độ rộng cố định cho icon */
+    margin-right: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #606770; /* Màu icon mặc định */
+}
+
+/* Kiểu link đang active */
+.main-nav .nav-item.active .nav-link {
+    background-color: #FECDD3;
+    color: #BE123C;
+    font-weight: 600;
+}
+.main-nav .nav-item.active .nav-link i {
+    color: #BE123C;
+}
+
+/* Kiểu link cho Topics/Utility */
+.topics-nav .nav-link,
+.utility-nav .nav-link {
+    font-size: 0.95rem;
+    padding: 8px 15px;
+}
+
+
+/* ==================== FEED CONTENT STYLES ==================== */
+.post {
+    background-color: #ffffff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    overflow: hidden; /* Giữ nội dung trong bo góc */
+}
+
+.post-header {
+    padding: 12px 16px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 1px solid #f0f2f5;
+}
+
+.user-info {
+    line-height: 1.2;
+}
+.user-name {
+    font-weight: 600;
+    display: block;
+    color: #050505;
+}
+.user-handle {
+    color: #606770;
+    font-size: 0.9rem;
+}
+
+.post-body {
+    /* Padding có thể áp dụng cho các phần tử con */
+}
+
+.post-text {
+    padding: 0 16px 12px;
+    font-size: 0.95rem;
+    color: #1c1e21;
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+.post-image {
+    margin-top: 5px; /* Khoảng cách nhỏ nếu có text phía trên */
+    /* img-fluid đã xử lý responsive */
+}
+
+/* Phần Coming Soon */
+.coming-soon {
+    background-color: #F43F5E;
+    color: white;
+    padding: 20px 16px;
+    margin: 12px 16px;
+    text-align: center;
+    border-radius: 8px;
+}
+.coming-soon-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.coming-soon-date {
+    display: block;
+    font-size: 1rem;
+}
+
+/* Phần Schedule Preview */
+.schedule-preview {
+    margin: 12px 16px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.schedule-link {
+    display: block;
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+.schedule-link:hover {
+    background-color: #eee;
+}
+.schedule-image {
+    /* img-fluid đã xử lý responsive */
+}
+
+/* Phần Footer của bài viết */
+.post-footer {
+    padding: 8px 16px;
+    border-top: 1px solid #e4e6eb;
+}
+
+.post-actions {
+    display: flex; /* Sắp xếp các nút actions */
+    gap: 8px; /* Khoảng cách giữa các nút (cần hỗ trợ trình duyệt hoặc dùng margin) */
+    /* Hoặc dùng margin: */
+    /* .action-btn-post + .action-btn-post { margin-left: 8px; } */
+}
+
+.action-btn-post {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #606770;
+    background-color: #fff; /* Nền trắng */
+    transition: background-color 0.2s ease;
+    border: 1px solid transparent; /* Placeholder cho border hover/active */
+}
+.action-btn-post:hover {
+    background-color: #f0f2f5;
+}
+
+.action-btn-post i {
+    margin-right: 5px;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+.action-btn-post .count {
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+.action-btn-post span:not(.count) { /* Chữ Save/Report */
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+/* Kiểu nút khi active (cần JS thêm class 'active') */
+.action-btn-post.active .fa-heart,
+.action-btn-post.active .fa-bookmark {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900; /* Solid icon weight */
+}
+.action-btn-post.action-like.active {
+     color: #dc3545; /* Màu đỏ */
+     /* border-color: #dc3545; */ /* Tùy chọn: thêm border đỏ */
+}
+.action-btn-post.action-save.active {
+     color: #007bff; /* Màu xanh dương */
+     /* border-color: #007bff; */
+}
+
+
+.report-btn {
+    color: #606770;
+    font-size: 0.9rem;
+    background: none; /* Đảm bảo không có nền */
+    padding: 6px 8px;
+}
+.report-btn:hover {
+    background-color: #f0f2f5;
+}
+.report-btn span {
+     margin-left: 4px;
+}
+
+
+/* ==================== RANKING WIDGET STYLES ==================== */
+.ranking-widget {
+    background-color: #ffffff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.widget-header {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e4e6eb;
+}
+
+.widget-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0; /* Reset margin mặc định của h3 */
+}
+
+.ranking-filter {
+    font-size: 0.9rem;
+}
+.filter-label {
+    font-weight: 600;
+    color: #333;
+}
+.filter-button {
+    color: #606770;
+    font-weight: 500;
+    font-size: 0.85rem;
+    margin-left: 5px; /* Khoảng cách nhỏ */
+}
+.filter-button:hover {
+    text-decoration: underline;
+}
+.filter-button i {
+    margin-left: 3px;
+    font-size: 0.8em; /* Icon nhỏ hơn chút */
+}
+
+.ranking-list {
+    padding-left: 0; /* Bỏ padding mặc định của ul */
+}
+
+.ranking-item {
+    margin-bottom: 12px;
+    padding: 5px 0;
+    /* d-flex align-items-center đã xử lý layout */
+}
+.ranking-item:last-child {
+    margin-bottom: 0; /* Bỏ margin cho mục cuối */
+}
+
+.rank-number {
+    font-weight: bold;
+    color: #6c757d;
+    width: 35px; /* Độ rộng cố định */
+    font-size: 0.9rem;
+    flex-shrink: 0; /* Không co lại */
+    text-align: left;
+    margin-right: 10px; /* Khoảng cách với avatar */
+}
+
+.avatar-small {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid #f0f2f5;
+    margin-right: 10px; /* Khoảng cách với info */
+}
+
+.ranked-user-info {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    flex-grow: 1;
+}
+/* Lớp CSS cho modal */
+.modal-backdrop.show {
+    pointer-events: none; /* Ngăn người dùng tương tác với phần nền */
+}
+
+/* Thêm hiệu ứng cho modal */
+.modal.fade .modal-dialog {
+    pointer-events: auto; /* Cho phép người dùng tương tác với modal */
+}
+.score {
+    font-weight: 600;
+    display: block;
+    color: #212529;
+}
+.description {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+/* ==================== RESPONSIVE ADJUSTMENTS ==================== */
+@media (max-width: 767.98px) { /* breakpoint md của BS4 */
+    /* Kiểu dáng post trên mobile */
+    .post {
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        box-shadow: none;
+        border-top: 1px solid #dddfe2;
+        margin-bottom: 0;
+    }
+    /* Bỏ viền trên cho post đầu tiên */
+     .feed-content .post:first-child {
+         border-top: none;
+     }
+     /* Điều chỉnh padding nếu cần */
+     .post-header, .post-footer {
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+      .post-text {
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+     .coming-soon, .schedule-preview {
+         margin-left: 1rem;
+         margin-right: 1rem;
+     }
+     
+}
+body.modal-open {
+  overflow: hidden;
+}
+    /*Dang nhap style*/
+.custom-login-modal .modal-dialog {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.custom-login-modal .modal-content {
+    height: 430px;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F2F4F7;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin-bottom: 12px;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+.custom-login-modal .modal-title {
+    color: #1B1B1B;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+}
+
+.custom-login-modal .close {
+    width: 30px;
+    height: 30px;
+    right: 15px;
+    top: 0px;
+    position: absolute;
+    background: rgba(218, 218, 218, 0);
+    border-radius: 9999px;
+}
+.custom-login-modal .form-control {
+    width: 450px;
+    height: 60px;
+    background: white;
+    border-radius: 10px;
+    border: 1px #DADADA solid;
+}
+.custom-login-modal .form-control::placeholder {
+    color: #6D6D6D;
+}
+
+.custom-login-modal a.text-danger.small {
+    color: #FF0909;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding: 2px;
+}
+
+.custom-login-modal .no-account-text {
+    color: #1B1B1B;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 5px;
+}
+
+.custom-login-modal a.text-primary {
+    color: #1B1B1B;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.custom-login-modal a.text-primary:hover {
+    color: #2481C7;
+    text-decoration: underline;
+}
+.custom-login-modal .btn-primary {
+    width: 450px;
+    height: 59px;
+    background: #2481C7;
+    border-radius: 10px;
+    color: white;
+    font-size: 23px;
+    font-family: Quicksand;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+.custom-login-modal .btn-primary:hover {
+    background-color: #f0f2f5;
+    color: #2481C7;
+    border-color: #2481C7;
+}
+.custom-login-modal .modal-body {
+    padding: 0 24px 24px;
+}
+.custom-login-modal .modal-header {
+    padding: 24px 24px 12px;
+}
+/*dangkistyle*/
+/* Modal tổng */
+.custom-reg-modal .modal-dialog {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.custom-reg-modal .modal-content {
+    border-radius: 10px;
+    width: 500px;
+    height: 650px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F2F4F7;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Tiêu đề modal */
+.custom-reg-modal .modal-title {
+    color: #1B1B1B;
+    font-size: 23px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+
+/* Nút đóng */
+.custom-reg-modal .close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #050505;
+    right:5px
+}
+
+/* Input form */
+.custom-reg-modal .form-control {
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    font-size: 14px;
+    height:45px;
+    color: #1B1B1B;
+    padding: 10px 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+    .custom-reg-modal .form-control::placeholder {
+        color: #6D6D6D;
+    }
+
+/* Label điều khoản */
+.custom-reg-modal .form-check-label {
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+}
+
+    .custom-reg-modal .form-check-label a {
+        color: #2481C7;
+        text-decoration: underline;
+    }
+
+/* Nút đăng ký */
+.custom-reg-modal .btn.btn-primary {
+    width: 450px;
+    height: 55px;
+    background: #2481C7;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: Quicksand;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.custom-reg-modal .btn.btn-primary:hover {
+    background-color: #f0f2f5;
+    color: #2481C7;
+    border-color: #2481C7;
+}
+.user-info {
+    display: none;
+    position: relative;
+}
+.user-avatar {
+    display: none;
+    position: relative;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    cursor: pointer;
+    magging-left:5px;
+}

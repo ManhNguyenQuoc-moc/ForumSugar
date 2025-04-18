@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\JavaScrip.js",
+      "PackagePath": "staticwebassets\\JavaScrip.js"
+    },
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
+      "PackagePath": "staticwebassets\\Login.html"
+    },
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
+      "PackagePath": "staticwebassets\\index2.html"
+    },
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ForumSugar.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ForumSugar.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ForumSugar.props",
+      "PackagePath": "build\\ForumSugar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ForumSugar.props",
+      "PackagePath": "buildMultiTargeting\\ForumSugar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ForumSugar.props",
+      "PackagePath": "buildTransitive\\ForumSugar.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
