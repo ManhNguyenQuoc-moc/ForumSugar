@@ -6,7 +6,7 @@ dotnet ef database update
 dotnet ef migrations add AddDateOfBirthToUser
 dotnet ef database update
 **#Thông tin dự án**
-- dự án được build với công nghệ Net Core API để làm backend và fontend sử dụng bootrap 4 cùng với html và css
+- dự án được build với công nghệ Net Core API để làm backend và fontend sử dụng bootrap 4 cùng với html và css\n
 **# cách chạy dự án**
 -import database vào SQL sever từ file ForumDatabase.pacpac trong thư mục data
 + kiểm tra chuỗi kết nối trong file appSetting.json
