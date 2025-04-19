@@ -183,11 +183,11 @@ async function getTopicIds(topics) {
     document.getElementById('loading').style.display = 'block';
 
     try {
-                const res = await fetch(`http://localhost:5093/api/Blogs/scroll?page=${currentPage}&pageSize=10`);
+    const res = await fetch(`http://localhost:5093/api/Blogs/scroll?page=${currentPage}&pageSize=10`);
     const data = await res.json();
 
     if (!data.items || data.items.length === 0) {
-        isEnd = true;
+    isEnd = true;
     document.getElementById('loading').innerText = "Hết bài viết!";
     return;
                 }

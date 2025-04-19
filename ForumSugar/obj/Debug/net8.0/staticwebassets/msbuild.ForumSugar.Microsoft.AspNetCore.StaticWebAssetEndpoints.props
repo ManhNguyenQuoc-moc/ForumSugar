@@ -1,88 +1,64 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/css/style.0o8br1ji6v.css">
+    <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/css/style.c4gpulgbzi.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0o8br1ji6v"},{"Name":"integrity","Value":"sha256-oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8="},{"Name":"label","Value":"_content/ForumSugar/assets/css/style.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17543"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 11:16:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c4gpulgbzi"},{"Name":"integrity","Value":"sha256-JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4="},{"Name":"label","Value":"_content/ForumSugar/assets/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22734"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 19:36:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/css/style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17543"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 11:16:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22734"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 19:36:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.kvctm6rs36.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kvctm6rs36"},{"Name":"integrity","Value":"sha256-cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta\u002B8="},{"Name":"label","Value":"_content/ForumSugar/assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35945"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 03:15:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta\u002B8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"35945"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 03:15:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/js/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7876"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 11:18:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8KQi3SnoJeTXbcxJtf\u002BkCG113PXVk/xSjwuMUbkVVg4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22068"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228KQi3SnoJeTXbcxJtf\u002BkCG113PXVk/xSjwuMUbkVVg4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 09:54:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/js/script.rhkulgq0et.js">
+    <StaticWebAssetEndpoint Include="_content/ForumSugar/assets/js/script.k39k8mt0bi.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rhkulgq0et"},{"Name":"integrity","Value":"sha256-P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M="},{"Name":"label","Value":"_content/ForumSugar/assets/js/script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7876"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 11:18:11 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/index.btyh14f7zv.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"btyh14f7zv"},{"Name":"integrity","Value":"sha256-gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ="},{"Name":"label","Value":"_content/ForumSugar/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15981"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 03:25:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k39k8mt0bi"},{"Name":"integrity","Value":"sha256-8KQi3SnoJeTXbcxJtf\u002BkCG113PXVk/xSjwuMUbkVVg4="},{"Name":"label","Value":"_content/ForumSugar/assets/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22068"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228KQi3SnoJeTXbcxJtf\u002BkCG113PXVk/xSjwuMUbkVVg4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 09:54:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ForumSugar/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15981"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 03:25:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ixHVYfASS2dH0/9CL\u002BT4nHx2YFV\u002B3VgdxXg18lXr5bM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24449"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ixHVYfASS2dH0/9CL\u002BT4nHx2YFV\u002B3VgdxXg18lXr5bM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 09:24:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/index2.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index2.html'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ForumSugar/index.vj0ru23yef.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd\u002BLPo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1818"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd\u002BLPo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 02:49:54 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/index2.s4xsmwflgy.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index2.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s4xsmwflgy"},{"Name":"integrity","Value":"sha256-vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd\u002BLPo="},{"Name":"label","Value":"_content/ForumSugar/index2.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1818"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd\u002BLPo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 02:49:54 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/JavaScrip.2iw9au82lb.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JavaScrip.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2iw9au82lb"},{"Name":"integrity","Value":"sha256-yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN\u002BtsXkOBEo="},{"Name":"label","Value":"_content/ForumSugar/JavaScrip.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10631"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN\u002BtsXkOBEo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 14:18:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vj0ru23yef"},{"Name":"integrity","Value":"sha256-ixHVYfASS2dH0/9CL\u002BT4nHx2YFV\u002B3VgdxXg18lXr5bM="},{"Name":"label","Value":"_content/ForumSugar/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24449"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ixHVYfASS2dH0/9CL\u002BT4nHx2YFV\u002B3VgdxXg18lXr5bM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 09:24:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ForumSugar/JavaScrip.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JavaScrip.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN\u002BtsXkOBEo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10631"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN\u002BtsXkOBEo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 14:18:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10615"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 15:06:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/Login.7rtakmdldn.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Login.html'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ForumSugar/JavaScrip.rrm05dny7f.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JavaScrip.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7rtakmdldn"},{"Name":"integrity","Value":"sha256-I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE="},{"Name":"label","Value":"_content/ForumSugar/Login.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"616"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 07:04:27 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/Login.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Login.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"616"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 07:04:27 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/styles.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1309"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 11:09:43 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ForumSugar/styles.scwm2tlfsg.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"scwm2tlfsg"},{"Name":"integrity","Value":"sha256-tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno="},{"Name":"label","Value":"_content/ForumSugar/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1309"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 11:09:43 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rrm05dny7f"},{"Name":"integrity","Value":"sha256-R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8="},{"Name":"label","Value":"_content/ForumSugar/JavaScrip.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10615"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 15:06:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

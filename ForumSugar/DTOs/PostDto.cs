@@ -16,11 +16,12 @@
         // Tổng like và comment
         public int LikeCount { get; set; }
         public int CommentCount { get; set; }
-
+        public string LikeUsers { get; set; }
         // Trạng thái người dùng hiện tại
         public bool IsLikedByCurrentUser
         {
             get; set;
         }
+        public string TopicName { get; set; }
     }
 }

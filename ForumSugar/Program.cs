@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using CloudinaryDotNet;
 namespace ForumSugar
 {
     public class Program
@@ -63,7 +64,14 @@ namespace ForumSugar
             });
 
             builder.Services.AddAuthorization();
+            builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
 
+            builder.Services.AddSingleton(serviceProvider =>
+            {
+                var config = builder.Configuration.GetSection("CloudinarySettings").Get<CloudinarySettings>();
+                var account = new Account(config.CloudName, config.ApiKey, config.ApiSecret);
+                return new Cloudinary(account);
+            });
             // ============ DI cho Repository và Service ============ 
             builder.Services.AddScoped<IPostReportRepository, PostReportRepository>();
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
@@ -76,7 +84,9 @@ namespace ForumSugar
             builder.Services.AddScoped<ICommentRepository, CommentRepository>();
             builder.Services.AddScoped<ICommentReportRepository, CommentReportRepository>();
             builder.Services.AddScoped<ITopicService, TopicService>();
-           
+            builder.Services.AddScoped<IPhotoService, PhotoService>();
+            builder.Services.AddScoped<INotificationService, NotificationService>();
+            builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
             // ============ Swagger có hỗ trợ JWT ============ 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
