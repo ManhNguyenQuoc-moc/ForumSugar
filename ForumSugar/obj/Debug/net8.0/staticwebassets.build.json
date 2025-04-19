@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6qJ3TYNkJLtxVba2zVzugP1PAPAcPfqDZt6Hmnl2jnA=",
+  "Hash": "IGdRK5ks+FNIcDuGOio3xQxU/WcR6tFGMdqm2n4RTGg=",
   "Source": "ForumSugar",
   "BasePath": "_content/ForumSugar",
   "Mode": "Default",
@@ -31,11 +31,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0o8br1ji6v",
-      "Integrity": "oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=",
+      "Fingerprint": "c4gpulgbzi",
+      "Integrity": "JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\image\\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt",
+      "SourceId": "ForumSugar",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
+      "BasePath": "_content/ForumSugar",
+      "RelativePath": "assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kvctm6rs36",
+      "Integrity": "cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt"
     },
     {
       "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
@@ -52,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rhkulgq0et",
-      "Integrity": "P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=",
+      "Fingerprint": "k39k8mt0bi",
+      "Integrity": "8KQi3SnoJeTXbcxJtf+kCG113PXVk/xSjwuMUbkVVg4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\script.js"
@@ -73,32 +94,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "btyh14f7zv",
-      "Integrity": "gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=",
+      "Fingerprint": "vj0ru23yef",
+      "Integrity": "ixHVYfASS2dH0/9CL+T4nHx2YFV+3VgdxXg18lXr5bM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
-      "SourceId": "ForumSugar",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
-      "BasePath": "_content/ForumSugar",
-      "RelativePath": "index2#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "s4xsmwflgy",
-      "Integrity": "vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index2.html"
     },
     {
       "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\JavaScrip.js",
@@ -115,58 +115,16 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2iw9au82lb",
-      "Integrity": "yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo=",
+      "Fingerprint": "rrm05dny7f",
+      "Integrity": "R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\JavaScrip.js"
-    },
-    {
-      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
-      "SourceId": "ForumSugar",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
-      "BasePath": "_content/ForumSugar",
-      "RelativePath": "Login#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7rtakmdldn",
-      "Integrity": "I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Login.html"
-    },
-    {
-      "Identity": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
-      "SourceId": "ForumSugar",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ForumSugar\\ForumSugar\\wwwroot\\",
-      "BasePath": "_content/ForumSugar",
-      "RelativePath": "styles#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "scwm2tlfsg",
-      "Integrity": "tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\styles.css"
     }
   ],
   "Endpoints": [
     {
-      "Route": "assets/css/style.0o8br1ji6v.css",
+      "Route": "assets/css/style.c4gpulgbzi.css",
       "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -176,7 +134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17543"
+          "Value": "22734"
         },
         {
           "Name": "Content-Type",
@@ -184,11 +142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=\""
+          "Value": "\"JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 11:16:48 GMT"
+          "Value": "Fri, 18 Apr 2025 19:36:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -198,7 +156,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0o8br1ji6v"
+          "Value": "c4gpulgbzi"
         },
         {
           "Name": "label",
@@ -206,7 +164,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8="
+          "Value": "sha256-JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4="
         }
       ]
     },
@@ -221,7 +179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17543"
+          "Value": "22734"
         },
         {
           "Name": "Content-Type",
@@ -229,11 +187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8=\""
+          "Value": "\"JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 11:16:48 GMT"
+          "Value": "Fri, 18 Apr 2025 19:36:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -243,7 +201,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oE8n/NMy2D0AoQVEfgeBY34eTLbBU2iTG8rCVIEkT/8="
+          "Value": "sha256-JNB0pG38r7GB2nVcmw9LXrxru1rCDJhuoTfvHQiE6e4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.kvctm6rs36.txt",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\image\\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 03:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kvctm6rs36"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta+8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/image/f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\image\\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 03:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cETZZz3QKZZH80FQribppVah2KCWxEhpQbGHbMUta+8="
         }
       ]
     },
@@ -258,7 +298,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7876"
+          "Value": "22068"
         },
         {
           "Name": "Content-Type",
@@ -266,11 +306,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=\""
+          "Value": "\"8KQi3SnoJeTXbcxJtf+kCG113PXVk/xSjwuMUbkVVg4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 11:18:11 GMT"
+          "Value": "Sat, 19 Apr 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -280,12 +320,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M="
+          "Value": "sha256-8KQi3SnoJeTXbcxJtf+kCG113PXVk/xSjwuMUbkVVg4="
         }
       ]
     },
     {
-      "Route": "assets/js/script.rhkulgq0et.js",
+      "Route": "assets/js/script.k39k8mt0bi.js",
       "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -295,7 +335,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7876"
+          "Value": "22068"
         },
         {
           "Name": "Content-Type",
@@ -303,11 +343,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M=\""
+          "Value": "\"8KQi3SnoJeTXbcxJtf+kCG113PXVk/xSjwuMUbkVVg4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 11:18:11 GMT"
+          "Value": "Sat, 19 Apr 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -317,7 +357,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rhkulgq0et"
+          "Value": "k39k8mt0bi"
         },
         {
           "Name": "label",
@@ -325,52 +365,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-P9jTX9h96z4rUzKJsmGsUDzNIafGNQHTC9dHQOHdC5M="
-        }
-      ]
-    },
-    {
-      "Route": "index.btyh14f7zv.html",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15981"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 03:25:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "btyh14f7zv"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ="
+          "Value": "sha256-8KQi3SnoJeTXbcxJtf+kCG113PXVk/xSjwuMUbkVVg4="
         }
       ]
     },
@@ -385,7 +380,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15981"
+          "Value": "24449"
         },
         {
           "Name": "Content-Type",
@@ -393,11 +388,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ=\""
+          "Value": "\"ixHVYfASS2dH0/9CL+T4nHx2YFV+3VgdxXg18lXr5bM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 03:25:05 GMT"
+          "Value": "Sat, 19 Apr 2025 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -407,13 +402,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gVT6Isp9WcamVF1zuu3pA0Oj/qjnOFPZOW01wzV7JkQ="
+          "Value": "sha256-ixHVYfASS2dH0/9CL+T4nHx2YFV+3VgdxXg18lXr5bM="
         }
       ]
     },
     {
-      "Route": "index2.html",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
+      "Route": "index.vj0ru23yef.html",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -422,7 +417,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1818"
+          "Value": "24449"
         },
         {
           "Name": "Content-Type",
@@ -430,48 +425,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo=\""
+          "Value": "\"ixHVYfASS2dH0/9CL+T4nHx2YFV+3VgdxXg18lXr5bM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 02:49:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo="
-        }
-      ]
-    },
-    {
-      "Route": "index2.s4xsmwflgy.html",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1818"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 02:49:54 GMT"
+          "Value": "Sat, 19 Apr 2025 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -481,60 +439,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s4xsmwflgy"
+          "Value": "vj0ru23yef"
         },
         {
           "Name": "label",
-          "Value": "index2.html"
+          "Value": "index.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vBxy5PA16eFj53JJgCLmNoq4BQrJZsPd95oiIQd+LPo="
-        }
-      ]
-    },
-    {
-      "Route": "JavaScrip.2iw9au82lb.js",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\JavaScrip.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10631"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 14:18:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2iw9au82lb"
-        },
-        {
-          "Name": "label",
-          "Value": "JavaScrip.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo="
+          "Value": "sha256-ixHVYfASS2dH0/9CL+T4nHx2YFV+3VgdxXg18lXr5bM="
         }
       ]
     },
@@ -549,7 +462,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10631"
+          "Value": "10615"
         },
         {
           "Name": "Content-Type",
@@ -557,11 +470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo=\""
+          "Value": "\"R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 14:18:21 GMT"
+          "Value": "Fri, 18 Apr 2025 15:06:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -571,13 +484,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yo5Ml2vVm2dT6manPtq5rTxnReVDT9UzjN+tsXkOBEo="
+          "Value": "sha256-R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8="
         }
       ]
     },
     {
-      "Route": "Login.7rtakmdldn.html",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
+      "Route": "JavaScrip.rrm05dny7f.js",
+      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\JavaScrip.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -586,19 +499,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "616"
+          "Value": "10615"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=\""
+          "Value": "\"R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 07:04:27 GMT"
+          "Value": "Fri, 18 Apr 2025 15:06:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -608,134 +521,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7rtakmdldn"
+          "Value": "rrm05dny7f"
         },
         {
           "Name": "label",
-          "Value": "Login.html"
+          "Value": "JavaScrip.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE="
-        }
-      ]
-    },
-    {
-      "Route": "Login.html",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "616"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 07:04:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-I3F6FTBORjBLaNCGNtG6G7a45EBB0puo9ZUvNx9WZSE="
-        }
-      ]
-    },
-    {
-      "Route": "styles.css",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1309"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 11:09:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno="
-        }
-      ]
-    },
-    {
-      "Route": "styles.scwm2tlfsg.css",
-      "AssetFile": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1309"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 11:09:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "scwm2tlfsg"
-        },
-        {
-          "Name": "label",
-          "Value": "styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tMzp2jLyPCLeoAhMtmL7IwTchokL/S/hrJi5bo0jZno="
+          "Value": "sha256-R9xMYg59KiMYSoiuSgeFc9tyZPuMh5lrvAegicC4KC8="
         }
       ]
     }

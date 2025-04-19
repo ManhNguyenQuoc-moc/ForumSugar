@@ -1,7 +1,5 @@
 wwwroot\assets\css\style.css
+wwwroot\assets\image\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt
 wwwroot\assets\js\script.js
 wwwroot\index.html
-wwwroot\index2.html
 wwwroot\JavaScrip.js
-wwwroot\Login.html
-wwwroot\styles.css

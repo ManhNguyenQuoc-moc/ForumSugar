@@ -750,6 +750,7 @@ body.modal-open {
 .user-info {
     display: none;
     position: relative;
+    margin-left: 5px;
 }
 .user-avatar {
     display: none;
@@ -758,5 +759,264 @@ body.modal-open {
     height: 40px; 
     border-radius: 50%; 
     cursor: pointer;
-    magging-left:5px;
 }
+.scrollable-div {
+    height: 900px;
+    overflow-y: auto;
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* Internet Explorer */
+}
+
+.scrollable-div::-webkit-scrollbar {
+    width: 0px;     /* Ẩn thanh cuộn */
+    background: transparent;
+}
+/*post css :)))*/
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    border: none;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-body h5 {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.card-body p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.img-fluid {
+    margin-top: 1rem;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.mt-2 span {
+    font-size: 0.9rem;
+    color: #888;
+    margin-right: 10px;
+}
+
+.card-body small.text-muted {
+    font-size: 0.8rem;
+}
+
+.rounded-circle {
+    border: 2px solid #eee;
+}
+#userDropdown::after {
+    display: none !important;
+}
+
+.bg-purple {
+    background-color: #8e44ad;
+}
+
+.modal-footer input {
+    flex: 1;
+}
+/*chon chu de*/
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 10px;
+    font-family: Quicksand;
+}
+
+.custom-dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f5f6f8;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 10px 40px 10px 15px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.custom-dropdown::after {
+    content: "⌵";
+    font-size: 18px;
+    color: #000;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+/*form tạo bài viết*/
+.modal-content {
+    width: 600px;
+    background-color: #F2F4F7;
+    font-family: Quicksand;
+}
+/* Bỏ viền input và textarea */
+#postModal input.form-control,
+#postModal textarea.form-control {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: white;
+    color: #050505;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Quicksand;
+    transition: border-color 0.2s;
+}
+/* Focus cũng không viền */
+#postModal input.form-control:focus,
+#postModal textarea.form-control:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+#postModal .modal-header img {
+    width: 65px;
+    height: 65px;
+    border: 1px black solid;
+}
+
+#postModal .modal-header h6 {
+    color: black;
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+#postModal .modal-header small {
+    color: black;
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+#postModal .btn-light,
+#postModal .btn-primary {
+    border-radius: 8px;
+}
+
+#postModal .btn-primary {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#postModal .bg-white rounded shadow-sm
+{
+    border-radius: 10px;
+}
+.loginPromptModal {
+    width: 500px;
+    height: 130px;
+    background: #F2F4F7;
+    border-radius: 10px;
+}
+.btn btn-primary {
+    width: 450px;
+    height: 59px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #2481C7;
+    border-radius: 10px;
+}
+/* Container của dropdown */
+#user-info {
+   
+}
+
+/* Nền dropdown chính */
+#userDropdownMenu {
+    width: 380px;
+    height: 380px;
+    transform: rotate(180deg);
+    transform-origin: top left;
+    background: #F2F4F7;
+    border-radius: 10px;
+    border: 0.50px #DADADA solid;
+}
+
+/* Ảnh đại diện */
+#popup-avatar {
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+}
+
+/* Container info gồm avatar + text */
+.user-info-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Phần text bên phải avatar */
+.user-text {
+    color: black;
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+/* Tên người dùng (name) */
+#popup-name {
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+/* Tên đăng nhập (username) */
+#popup-username {
+    color: #888;
+    font-size: 15px;
+    color: black;
+    font-family: Quicksand;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+/* Các nút trong menu */
+.dropdown-item {
+    /* Tuỳ chỉnh hover, padding, icon spacing */
+    width: 350px;
+    height: 45px;
+    background: #F2F4F7;
+    border-radius: 10px;
+}
+
+/* Icon trước nút */
+.dropdown-item i {
+    margin-right: 8px;
+    /* Tuỳ chỉnh kích thước icon nếu muốn */
+}
+
+/* Đăng xuất */
+#logoutBtn {
+    /* Style riêng nếu muốn nổi bật */
+}
+

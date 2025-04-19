@@ -18,7 +18,10 @@ namespace ForumSugar.Services.Interfaces
         Task<ApiResponse<IEnumerable<Post>>> SearchPostsAsync(string keyword);
         //Task<ApiResponse<PagedResult<Post>>> GetPagedPostsAsync(int pageNumber, int pageSize, string? topic = null);
         Task<ApiResponse<string>> ApprovePostAsync(int PostId);
-        Task<ApiResponse<string>> LikePostAsync(int blogId, int userId);
+        Task<ApiResponse<object>> LikePostAsync(int blogId, int userId);
         Task<PagedResult<PostDto>> GetPagedBlogsAsync(int page, int pageSize, int? currentUserId);
+        Task<PagedResult<PostDto>> GetPagedBlogsAdminNotApprovedAsync(int page, int pageSize, int? currentUserId = null);
+        Task<PagedResult<PostDto>> GetPagedBlogswithUserIDAsync(int page, int pageSize, int? currentUserId = null);
+
     }
 }

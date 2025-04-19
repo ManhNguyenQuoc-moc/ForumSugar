@@ -10,5 +10,7 @@ namespace ForumSugar.Repositories.Interfaces
         Task<IEnumerable<Post>> SearchAsync(string keyword);
         Task<PagedResult<PostDto>> GetPagedAsync(int page, int pageSize, int? currentUserId = null);
         Task<int> CountAsync();
+        Task<PagedResult<PostDto>> GetPagedBlogsAdminNotApprovedAsync(int page, int pageSize, int? currentUserId = null);
+        Task<PagedResult<PostDto>> GetPagedBlogsUseridAsync(int page, int pageSize, int? currentUserId = null);
     }
 }

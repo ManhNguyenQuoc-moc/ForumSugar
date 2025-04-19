@@ -1,6 +1,7 @@
 ﻿using ForumSugar.DTOs;
 using ForumSugar.Models.Entities;
 using ForumSugar.Models.Responses;
+using ForumSugar.Repositories;
 using ForumSugar.Repositories.Interfaces;
 using ForumSugar.Services.Interfaces;
 using ForumSugar.Wrappers;
@@ -16,11 +17,16 @@ namespace ForumSugar.Services
     {
         private readonly IPostRepository _postRepo;
         private readonly IPostReportRepository _reportRepo;
-
-        public PostService(IPostRepository PostRepo, IPostReportRepository reportRepo)
+        private readonly IPhotoService _photoService;
+        private readonly INotificationRepository _notificationRepository;
+        private readonly IUserRepository _userRepository;
+        private readonly INotificationService _notificationService;
+        public PostService(IPostRepository PostRepo, IPostReportRepository reportRepo, IPhotoService photoService, INotificationService notificationService)
         {
             _postRepo = PostRepo;
             _reportRepo = reportRepo;
+            _photoService = photoService;
+            _notificationService = notificationService;
         }
 
         public async Task<ApiResponse<IEnumerable<Post>>> GetAllAsync()
@@ -39,28 +45,65 @@ namespace ForumSugar.Services
 
         public async Task<ApiResponse<Post>> CreateAsync(CreatePostDto dto)
         {
-         try { 
-            var post = new Post
+            if (dto == null)
             {
-                Title = dto.Title,
-                Content = dto.Content,
-                ImageUrl = dto.ImageUrl,
-                UserId = dto.UserId,
-                TopicId = dto.TopicId,
-                isAproved = false,
-                isLocked = false,
-                CreatedAt = DateTime.Now
-            };
+                return new ApiResponse<Post>(false, "Dữ liệu bài viết không hợp lệ.", null);
+            }
 
-            await _postRepo.AddAsync(post);
-            return new ApiResponse<Post>(true, "Tạo Blog thành công", post);
-        }
-    
+            // Kiểm tra các thuộc tính cơ bản
+            if (string.IsNullOrEmpty(dto.Title) || string.IsNullOrEmpty(dto.Content))
+            {
+                return new ApiResponse<Post>(false, "Tiêu đề và nội dung không được để trống.", null);
+            }
+
+            if (dto.UserId == 0 || dto.TopicId == 0)
+            {
+                return new ApiResponse<Post>(false, "UserId và TopicId không hợp lệ.", null);
+            }
+
+            string imageUrl = null;
+            try
+            {
+                if (dto.Image != null)
+                {
+                    imageUrl = await _photoService.UploadImageAsync(dto.Image);
+                    if (string.IsNullOrEmpty(imageUrl))
+                    {
+                        return new ApiResponse<Post>(false, "Lỗi tải ảnh lên, không có URL trả về.", null);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return new ApiResponse<Post>(false, "Lỗi khi tải ảnh lên: " + ex.Message, null);
+            }
+
+            try
+            {
+                var post = new Post
+                {
+                    Title = dto.Title,
+                    Content = dto.Content,
+                    ImageUrl = imageUrl, // Lưu URL ảnh (nếu có)
+                    UserId = dto.UserId,
+                    TopicId = dto.TopicId,
+                    //IsApproved = false,
+                    //IsLocked = false,
+                    CreatedAt = DateTime.Now
+                };
+
+                // Lưu bài viết vào cơ sở dữ liệu
+                await _postRepo.AddAsync(post);
+
+                return new ApiResponse<Post>(true, "Tạo Blog thành công", post);
+            }
             catch (Exception ex)
             {
                 return new ApiResponse<Post>(false, "Đã xảy ra lỗi: " + ex.Message, null);
             }
         }
+
+
 
         public async Task<ApiResponse<Post>> UpdateAsync(int id, Post post)
         {
@@ -145,41 +188,67 @@ namespace ForumSugar.Services
 
         //    return new ApiResponse<PagedResult<Post>>( true, "Lấy danh sách bài viết thành công", pagedResult);
         //}
-
         public async Task<ApiResponse<string>> ApprovePostAsync(int postId)
         {
             var post = await _postRepo.GetByIdAsync(postId);
             if (post == null)
-                return new ApiResponse<string>(false,"Blog not found");
+                return new ApiResponse<string>(false, "Không tìm thấy bài viết.");
+
+            if (post.isAproved)
+                return new ApiResponse<string>(false, "Bài viết đã được duyệt.");
 
             post.isAproved = true;
             await _postRepo.UpdateAsync(post);
-            return new ApiResponse<string>(true,"Blog approved");
+
+            // Gửi thông báo cho người tạo bài viết
+            var senderId = 1011;
+            var receiverId = post.UserId;
+            var content = $"🎉 Bài viết \"{post.Title}\" của bạn đã được duyệt!";
+
+            await _notificationService.SendNotificationAsync(
+                senderId,
+                receiverId,
+                content,
+                NotificationType.System
+            );
+
+            return new ApiResponse<string>(true, "Bài viết của bạn đã được duyệt.");
         }
-        public async Task<ApiResponse<string>> LikePostAsync(int blogId, int userId)
+
+
+        public async Task<ApiResponse<object>> LikePostAsync(int blogId, int userId)
         {
             var blog = await _postRepo.GetByIdAsync(blogId);
             if (blog == null)
-                return new ApiResponse<string>(false, "Blog not found");
+                return new ApiResponse<object>(false, "Blog not found");
 
             // Kiểm tra xem blog có danh sách likes chưa, nếu chưa thì khởi tạo
             blog.Likes ??= new List<int>();
 
-            // Nếu người dùng đã like thì thực hiện unlike (xóa like)
+            bool isLiked;
             if (blog.Likes.Contains(userId))
             {
                 blog.Likes.Remove(userId); // Xóa like của user
-                await _postRepo.UpdateAsync(blog);
-                return new ApiResponse<string>(true, "Unliked blog"); // Trả về thông báo bỏ like
+                isLiked = false;
             }
             else
             {
-                // Nếu người dùng chưa like thì thực hiện like (thêm like)
                 blog.Likes.Add(userId); // Thêm like của user
-                await _postRepo.UpdateAsync(blog);
-                return new ApiResponse<string>(true, "Liked blog"); // Trả về thông báo đã like
+                isLiked = true;
             }
+
+            // Cập nhật blog với danh sách like mới
+            await _postRepo.UpdateAsync(blog);
+
+            // Trả về thông báo cùng với isLiked và likeCount
+            return new ApiResponse<object>(true, isLiked ? "Liked blog" : "Unliked blog", new
+            {
+                isLiked = isLiked,
+                likeCount = blog.Likes.Count
+            });
         }
+
+
         public async Task<ApiResponse<IEnumerable<Post>>> SearchPostsAsync(string keyword)
         {
             var posts = await _postRepo.GetAllAsync();
@@ -193,6 +262,14 @@ namespace ForumSugar.Services
         public async Task<PagedResult<PostDto>> GetPagedBlogsAsync(int page, int pageSize, int? currentUserId)
         {
             return await _postRepo.GetPagedAsync(page, pageSize, currentUserId);
+        }
+        public async Task<PagedResult<PostDto>> GetPagedBlogsAdminNotApprovedAsync(int page, int pageSize, int? currentUserId)
+        {
+            return await _postRepo.GetPagedBlogsAdminNotApprovedAsync(page, pageSize, currentUserId);
+        }
+        public async Task<PagedResult<PostDto>> GetPagedBlogswithUserIDAsync(int page, int pageSize, int? currentUserId)
+        {
+            return await _postRepo.GetPagedBlogsUseridAsync(page, pageSize, currentUserId);
         }
 
 

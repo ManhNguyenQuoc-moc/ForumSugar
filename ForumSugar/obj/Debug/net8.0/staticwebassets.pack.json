@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\JavaScrip.js"
     },
     {
-      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\Login.html",
-      "PackagePath": "staticwebassets\\Login.html"
-    },
-    {
       "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\image\\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt",
+      "PackagePath": "staticwebassets\\assets\\image\\f7b6b41e-f93d-4fbb-8c50-19b1e1e4708a.txt"
     },
     {
       "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\assets\\js\\script.js",
@@ -19,14 +19,6 @@
     {
       "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\index2.html",
-      "PackagePath": "staticwebassets\\index2.html"
-    },
-    {
-      "Id": "D:\\ForumSugar\\ForumSugar\\wwwroot\\styles.css",
-      "PackagePath": "staticwebassets\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ForumSugar.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

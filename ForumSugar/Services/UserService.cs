@@ -36,6 +36,7 @@ namespace ForumSugar.Services
             {
                 Id = user.Id,
                 Name = user.Name,
+                Username = user.Username,
                 Email = user.Email,
                 Bio = user.Bio,
                 AvatarUrl = user.AvatarUrl
